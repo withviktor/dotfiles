@@ -1,0 +1,50 @@
+clear
+exit
+cd Developer/
+ls
+cd dotfiles
+ls
+cd nushell/
+vim env.nu
+exit
+ls
+cd dotfiles
+ls
+cd ..
+ls -a
+rm dotfiles
+ls
+cd Developer/
+ls
+cd dotfiles/
+ls
+ls -a
+stow .
+ls ~
+clear
+ls
+cd nushell/
+l
+vim config.nu
+vim env.nu
+vim config.nuexit
+exit
+ls
+cd Developer/
+ls
+cd dotfiles/
+ls
+cd nushell/
+ls
+vim config.nu
+exit
+exi
+exit
+clear
+exit
+clear
+brew install nushell fzf zoxide starship helix zellij atuin gh fnm
+brew services start atuin
+clear
+tmux ls
+tmux kill-session 0
