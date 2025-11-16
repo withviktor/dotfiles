@@ -48,3 +48,29 @@ brew services start atuin
 clear
 tmux ls
 tmux kill-session 0
+clear
+ls
+cd nvim
+ls
+ls -a
+cd lua
+ls
+cd plugins
+ls
+v opencode.lua
+nvim opencode.lua
+nvim
+ls
+nvim opencode.lua
+nivm
+nvim
+cd ..
+ls
+cd st
+cd starship/
+ůs
+ls
+mv starship.toms starship.toml
+clear
+:q
+exit

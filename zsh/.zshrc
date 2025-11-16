@@ -2,7 +2,7 @@ setopt promptsubst
 
 export HOMEBREW_NO_ENV_HINTS=1
 
-eval "(starship init zsh)"
+eval "$(starship init zsh)"
 export STARSHIP_CONFIG=~/.config/starship/starship.toml
 
 export LANG=en_US.UTF-8
