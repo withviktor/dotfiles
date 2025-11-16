@@ -74,3 +74,28 @@ mv starship.toms starship.toml
 clear
 :q
 exit
+ls
+clear
+ls
+nvim .
+clear
+ls
+clear
+ls
+exit
+ls
+exit
+ls
+clear
+nvim
+la
+clear
+ls
+gs
+clear
+ls
+clear
+cd Developer/
+ls
+cd dotfiles/
+ls

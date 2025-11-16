@@ -61,3 +61,8 @@ export XDG_CONFIG_HOME="/Users/ciernava/.config"
 
 eval "$(zoxide init zsh)"
 eval "$(atuin init zsh)"
+
+# Auto-start tmux
+if command -v tmux &> /dev/null && [ -z "$TMUX" ]; then
+    tmux attach -t default || tmux new -s default
+fi
