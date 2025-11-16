@@ -17,6 +17,8 @@ alias ga="git add -p"
 alias gr="git remote"
 alias gre="git reset"
 
+export XDG_CONFIG_HOME="/Users/ciernava/.config"
+
 # Auto-start tmux if not already inside tmux and not in VSCode or other IDEs
 if command -v tmux &> /dev/null && [ -z "$TMUX" ] && [ -z "$VSCODE_INJECTION" ] && [ "$TERM_PROGRAM" != "vscode" ]; then
   # Check if any tmux sessions exist
