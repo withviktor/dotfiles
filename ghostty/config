@@ -1,0 +1,6 @@
+theme = catppuccin-mocha
+font-size = 19
+background-blur-radius = 20
+mouse-hide-while-typing = true
+windows-decoration = false
+macos-option-as-alt = true
