@@ -54,30 +54,28 @@ def fv [] {
 }
 
 # Config
-$env.config = {
-    show_banner: false
-    edit_mode: vi
-    shell_integration: true
-    
-    keybindings: [
+$env.config.keybindings = [
+  {
+    name: completion_menu
+    modifier: none
+    keycode: tab
+    mode: [emacs vi_normal vi_insert]
+    event: {
+      until: [
         {
-            name: completion_menu
-            modifier: none
-            keycode: tab
-            mode: [emacs vi_normal vi_insert]
-            event: {
-                until: [
-                    { send: menu name: completion_menu }
-                    { send: menunext }
-                ]
-            }
+          send: menu
+          name: completion_menu
         }
-    ]
-}
-
+      ]
+    }
+  }
+]
 $env.config.show_banner = false 
 $env.config.edit_mode = "vi" 
-$env.config.shell_integration = true
+
+source ~/.config/nushell/themes/catppuccin-mocha.nu
+use ~/.config/nushell/themes/catppuccin-mocha.nu 
+$env.config.color_config = (catppuccin-mocha)
 
 source ~/.config/nushell/env.nu
 use ~/.cache/starship/init.nu

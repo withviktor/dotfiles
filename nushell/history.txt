@@ -99,3 +99,110 @@ cd Developer/
 ls
 cd dotfiles/
 ls
+git add .
+git commit -m "adding nushell, tmux and starship as default terminal environment"
+git push
+clear
+ls
+clear
+cd Developer/
+ls
+cd dotfiles/
+clear
+cd ..
+ls
+mkdir goodhost-cz
+cd goodhost-cz/
+git clone https://github.com/goodhost-cz/panel.git
+cd panel
+ls
+cd ..
+mkdir bylinemark
+cd bylinemark/
+cd ..
+git clone https://github.com/withviktor/ciernava
+ls
+cd ciernava
+clear
+git switch main
+clear
+v
+v .
+clear
+cd ..
+ls
+cd dotfiles/
+ls
+nvim .
+nivm
+nvim
+nvim .
+lazygit
+clear
+ls
+ls -a
+cd nvim
+ls
+cd lua/plugins/
+nvim telescope.lua
+cd ..
+nvim .
+clear
+nvim
+cd nvim
+cd lua/plugins/
+ls
+rm telescope.lua
+cd ..
+clear
+nvim .
+clear
+nvim
+clear
+cd Developer/dotfiles/
+ls
+cd nushell/
+nvim .
+cd ..
+clear
+cd dotfiles/
+stow .
+clear
+tmux kill-session 0
+tmux
+tmux new
+tmux new-session
+clear
+cd Developer/dotfiles/
+nvim .
+cd Developer/dotfiles/
+ls
+cd nushell/
+ls
+mkdir themes
+cd themes
+nvim catppuccin-mocha.nu
+cd ..
+ls
+mkdir config.nu
+nvim .
+catppuccin-mocha
+clear
+cd Developer/dotfiles/
+nvim nushell/
+tmux --help
+use ~/.config/nushell/themes/catppuccin-mocha.nu
+catppuccin-mocha
+catppuccin-mocha set color_config
+catppuccin-mocha
+catppuccin-mocha update terminal
+clear
+catppuccin-mocha
+ls
+clear
+ls
+la
+clear
+ls
+clear
+10;rgb:cccc/cccc/cccc11;rgb:1818/1818/1818npm i -g turbo && exit
